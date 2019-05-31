@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Dashboard 3</title>
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Custom CSS  -->
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+
+<header>
+  <!-- Top Navigation -->
+  <nav class="top-nav" role="navigation">
+    <div class="container">
+      <div class="nav-wrapper">
+        <div class="row">
+          <div class="col s12 m10 offset-m2 offset-s2">
+            <h1 class="header">Dashboard</h1>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <a href="#" data-target="nav-mobile" class="top-nav sidenav-trigger full hide-on-large-only">
+      <i class="material-icons">menu</i>
+    </a>
+  </div>
+
+  <ul id="nav-mobile" class="sidenav sidenav-fixed collapsible">
+      <li class="logo"><img src="images/pers.png" alt="" class="persImage"></li>
+
+      <li class="active">
+        <a href="#" >
+        <i class="material-icons" style="color:#C7171D">dashboard</i>
+        Dashboard
+      </a>
+    </li>
+
+      <li>
+        <a href="pending-approvals.html">
+          <i class="material-icons" style="color:#ffab00">verified_user</i>
+          Pending Approvals
+        </a>
+      </li>
+
+      <li>
+        <a href="#">
+          <i class="material-icons" style="color:#0277bd">build</i>
+          Maintenance
+        </a>
+      </li>
+
+      <li>
+        <a href="#">
+          <i class="material-icons" style="color:#81c784">visibility</i>
+          Access Control
+        </a>
+      </li>
+
+        <li>
+          <div class="collapsible-header">
+            <i class="material-icons">list_alt</i>
+            <a href="#" class="collapsibleAnchor">
+              Reports
+            </a>
+          </div>
+          <div class="collapsible-body">
+            <a href="#" class="collapsibleAnchor collapsibleAnchorBody">Gate Pass Frequency</a>
+            <a href="#" class="collapsibleAnchor collapsibleAnchorBody">Work Permit Frequency</a>
+          </div>
+        </li>
+
+      <!-- Account Dropdown -->
+      <li>
+        <a class="account-dropdown" data-target="account-content" href="#">
+          <i class="material-icons" style="color:#607d8b">account_circle</i>
+          Account
+        </a>
+      </li>
+
+      <li><a href="#">Components</a></li>
+      <li><a href="#">Components</a></li>
+      <li><a href="#">Components</a></li>
+      <li><a href="#">Components</a></li>
+      <li><a href="#">Components</a></li>
+      <li><a href="#">Components</a></li>
+
+  </ul>
+
+<!-- Account Dropdown Content -->
+  <ul id="account-content" class="dropdown-content">
+    <li><a href="#">Manage Account</a></li>
+    <li><a href="#">Log out</a></li>
+  </ul>
+</header>
+
+<!-- Main Contents -->
+<main>
+  <div class="container">
+    <!-- First row -->
+    <div class="row">
+        <div class="col s12 m8 offset-m2">
+          <div class="">
+            <div id="grid-section1" class="section scrollspy">
+              <h1 class="header">Section 1</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col hide-on-small-only m2">
+          <div class="toc" style="margin-top:100px;margin-left:30px">
+            <p>Table of Contents</p>
+            <ul class="section table-of-contents">
+              <li><a href="#grid-section1">Section 1</a></li>
+              <li><a href="#grid-section2">Section 2</a></li>
+              <li><a href="#grid-section3">Section 3</a></li>
+              <li><a href="#grid-section4">Section 4</a></li>
+              <li><a href="#grid-section5">Section 5</a></li>
+            </ul>
+          </div>
+        </div>
+    </div>
+
+    <!-- Second Row -->
+    <div class="row">
+      <div class="col s12 m4 offset-m2">
+        <div class="">
+          <div id="grid-section2" class="section scrollspy">
+            <h1 class="header">Section 2.1</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col s12 m4">
+        <div class="">
+          <div id="grid-section2" class="section scrollspy">
+            <h1 class="header">Section 2.2</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Third Row -->
+    <div class="row">
+      <div class="col s12 m4 offset-m2">
+        <div class="">
+          <div id="grid-section3" class="section scrollspy">
+            <h1 class="header">Section 3</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Fourth Row -->
+    <div class="row">
+      <div class="col s12 m4 offset-m2">
+        <div class="">
+          <div id="grid-section4" class="section scrollspy">
+            <h1 class="header">Section 4</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Fifth Row -->
+    <div class="row">
+      <div class="col s12 m4 offset-m2">
+        <div class="">
+          <div id="grid-section5" class="section scrollspy">
+            <h1 class="header">Section 5</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+
+
+    <!-- Hamburger Contents -->
+        <!-- <ul class="sidenav" id="nav-mobile">
+          <li><a href="sass.html">Sass</a></li>
+          <li><a href="badges.html">Components</a></li>
+        </ul> -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="index.js" charset="utf-8"></script>
+  </body>
+</html>

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Dashboard</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+
+  <!-- FontAwesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Custom CSS  -->
+  <link rel="stylesheet" href="css/styles.css">
+
+
+
+</head>
+
+<body>
+  <ul id="dropdown1" class="dropdown-content">
+    <li><a href="#!">one</a></li>
+    <li><a href="#!">two</a></li>
+    <li class="divider"></li>
+    <li><a href="#!">three</a></li>
+  </ul>
+
+  <ul id="notifs" class="dropdown-content">
+    <li><a href="#!">Welcome to Pers Portal!</a></li>
+    <li><a href="#!">Sample Guides click here!</a></li>
+    <li class="divider"></li>
+    <li><a href="#!">You have a pending approval. Come click here</a></li>
+  </ul>
+
+  <nav>
+    <div class="nav-wrapper red darken-4">
+      <a href="#!" class="brand-logo"><img class="responsive-image pers-image" src="images/pers-transparent.png" alt=""></a>
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a class="notifs-trigger" href="#!" data-target="notifs"><i class="fas fa-bell fas-2x"></i></a></li>
+        <!-- Dropdown Trigger -->
+        <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Dropdown<i class="material-icons right">arrow_drop_down</i></a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <ul id="dropdown2" class="dropdown-content">
+    <li><a href="#!">one</a></li>
+    <li><a href="#!">two</a></li>
+    <li class="divider"></li>
+    <li><a href="#!">three</a></li>
+  </ul>
+
+  <ul class="sidenav" id="mobile-demo">
+    <li><a href="sass.html">Sass</a></li>
+    <li><a href="badges.html">Components</a></li>
+    <!-- Dropdown Trigger -->
+    <li><a class="dropdown-trigger" href="#!" data-target="dropdown2">Dropdown<i class="material-icons right">arrow_drop_down</i></a></li>
+
+    <!-- Dashboard Contents -->
+    <li class="divider"></li>
+    <li><a href="#">Red</a></li>
+  </ul>
+
+  <div class="row sideRow">
+    <div class="box z-depth-1 red darken-3 col m2 s12 hide-on-small-only">
+      <!-- <ul class="">
+      <li><a href="#">Home</a></li>
+    </ul> -->
+    </div>
+    <div class="box col m9 s12">
+      <div class="row">
+        <h5>Dashboard</h5>
+      </div>
+
+      <div class="row">
+        <div class="col m7 s12">
+          <div class="card horizontal">
+            <div class="card-image">
+              <img src="https://lorempixel.com/100/190/nature/6">
+            </div>
+            <div class="card-stacked">
+              <div class="card-content">
+                <p>I am a very simple card. I am good at containing small bits of information.</p>
+              </div>
+              <div class="card-action">
+                <a href="#">This is a link</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="col m5 s12">
+          Service Request
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="index.js" charset="utf-8"></script>
+
+</body>
+
+</html>

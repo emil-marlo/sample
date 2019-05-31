@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../../../favicon.ico">
+
+    <title>Partners' Electronic Request Service</title>
+
+    <!-- <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/sign-in/"> -->
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- Custom styles for this template -->
+    <link href="styles2.css" rel="stylesheet">
+  </head>
+
+  <body class="text-center signin-body">
+    <form class="form-signin">
+      <img class="mb-4 pers" src="images/pers.png" alt="pers-image">
+      <h1 class="h3 mb-5 font-weight-normal">Sign in your account</h1>
+      <input type="email" id="inputEmail" class="form-control" placeholder="Username" required autofocus>
+      <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+
+      <button class="btn btn-lg btn-danger btn-block" type="submit" onclick="redirect()">Sign in</button>
+      <p class="mt-5 mb-3 text-muted">&copy; Robinsons Land Corporation</p>
+    </form>
+
+    <script type="text/javascript">
+      function redirect(){
+        window.location.href = 'dashboard2.html';
+      }
+    </script>
+  </body>
+</html>

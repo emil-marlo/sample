@@ -1,0 +1,165 @@
+html,body{
+  margin: 0;
+  background-color: #F7F7FA;
+  height: 100%;
+}
+
+.loginHeader{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.5rem;
+}
+
+/* Login Page Styles */
+.persImage{
+  width: 9.375rem;
+  height: 9.375rem;
+  margin-top: 5%;
+}
+
+.loginField{
+  width: 35%;
+  margin-bottom: 0;
+}
+
+.loginBtn{
+  width: 30%;
+  margin-bottom: 5rem;
+}
+
+/* label focus color */
+.input-field input:focus + label {
+   color: #C7171D !important;
+ }
+ /* label underline focus color  */
+.row .input-field input:focus {
+   border-bottom: 1px solid #C7171D !important;
+   box-shadow: 0 1px 0 0 #C7171D !important;
+ }
+
+.input-field .prefix.active {
+     color: #C7171D !important;
+   }
+/* End of Login Page Styles */
+
+/* .dropdown-content li>a, .dropdown-content li>span {
+  color: #C7171D;
+} */
+
+.pers-image{
+  width:50px;
+  height:50px;
+  margin: 10% 80%;
+}
+
+.sideRow{
+  height: 100%;
+  margin-bottom: 0;
+}
+
+.box{
+  width: 6.25rem;
+  height: 100%;
+}
+
+.content-box{
+  margin-top: 2rem;
+}
+
+/* .row .col.offset-m1{
+  margin-left: 4.5%;
+} */
+
+/* For Dashboard 3 */
+.top-nav{
+  height: 80px;
+  background-color: #C7171D;
+}
+
+.header{
+  margin: 0;
+  padding-top: 22px;
+  font-size: 2rem;
+}
+
+a.sidenav-trigger.top-nav{
+  position: absolute;
+    text-align: center;
+    height: 48px;
+    width: 48px;
+    top: 10px;
+    float: none;
+    margin-left: 1.5rem;
+    color: #F7F7FA;
+    font-size: 36px;
+    z-index: 2;
+}
+
+.sidenav{
+  z-index: 999;
+  width: 300px;
+  background-color: #F7F7FA;
+  padding-bottom: 60px;
+  margin: 0;
+  top: 0;
+}
+
+.sidenav-fixed{
+  position: fixed;
+  left: 0;
+}
+
+.logo{
+  text-align: center;
+}
+/* End Dashboard 3 styles*/
+
+.toc{
+  position: fixed;
+}
+
+.table-of-contents{
+  margin-top: 0;
+  padding-bottom: 48px;
+}
+
+.collapsible-header, .collapsible-body{
+  padding: 0 32px !important;
+}
+
+.collapsible-header i {
+  width: 1rem;
+  margin-right: 40px;
+}
+
+.collapsibleAnchor{
+  color: rgba(0,0,0,0.87);
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    height: 48px;
+    line-height: 48px;
+}
+
+.collapsibleAnchorBody{
+  margin-left: 55px;
+}
+
+/* Pending Approval View */
+.top-nav-approval{
+  height: 80px;
+  background-color: #ffab00;
+  color: #eeeeee;
+}
+
+a.sidenav-trigger.top-nav-approval{
+  position: absolute;
+    text-align: center;
+    height: 48px;
+    width: 48px;
+    top: 10px;
+    float: none;
+    margin-left: 1.5rem;
+    color: #F7F7FA;
+    font-size: 36px;
+    z-index: 2;
+}
