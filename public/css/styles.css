@@ -163,3 +163,7 @@ a.sidenav-trigger.top-nav-approval{
     font-size: 36px;
     z-index: 2;
 }
+
+.approveAll{
+  margin-top: 20px;
+}
