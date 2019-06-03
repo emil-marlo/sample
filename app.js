@@ -19,7 +19,17 @@ app.get("/", function(req, res){
 
 app.get("/dashboard", function(req,res){
   res.render('dashboard', {
-    user: user
+    user: user,
+    headerTitle: "Dashboard",
+    active: "dashboard"
+  });
+});
+
+app.get("/pending-approvals", function(req,res){
+  res.render('pending-approvals', {
+    user: user,
+    headerTitle: "Pending Approvals",
+    active: "pending"
   });
 });
 

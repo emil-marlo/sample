@@ -1,0 +1,74 @@
+<!-- include head.ejs here -->
+<%- include("head"); -%>
+  <body>
+
+<!-- include navbars.ejs here -->
+<%- include("navbars", {user: user, active: "pending"}); -%>
+
+<!-- Main Contents -->
+<main>
+  <div class="container">
+    <!-- First row -->
+    <div class="row">
+      <div class="col s12 m11 offset-m2">
+        <div class="">
+          <div id="" class="section scrollspy">
+
+            <form class="" action="#" method="">
+              <table class="responsive-table">
+                <thead>
+                  <tr>
+                    <th>Transaction</th>
+                    <th>Transaction No.</th>
+                    <th>Status</th>
+                  </tr>
+                </thead>
+
+                <tbody>
+                  <tr>
+                    <td>Gate Pass</td>
+                    <td>GPBAC100001</td>
+                    <td>Approved</td>
+                  </tr>
+                  <tr>
+                    <td>Work Permit</td>
+                    <td>WPBAC10003</td>
+                    <td>Disapproved</td>
+                  </tr>
+                  <tr>
+                    <td>Gate Pass</td>
+                    <td>GPBAC100002</td>
+                    <td>For Approval</td>
+                  </tr>
+                </tbody>
+              </table>
+            </form>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Second Row -->
+    <div class="row">
+      <div class="col s12 m11 offset-m2">
+        <div class="">
+          <div id="grid-section2" class="section scrollspy">
+            <h1 class="header">Section 2.1</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+
+
+  </div>
+</main>
+
+
+<!-- include footer.ejs here -->
+<%- include("footer"); -%>
